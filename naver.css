@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+ margin: 0;
+ padding: 0;
+}
+
+
+.center-align {
+margin: 0 auto;
+width: 1080px;
+}
+
+div#header-search h1 {
+    display: inline-block;
+    vertical-align: bottom;
+    background-image: url('sp_main_dba1af.png');
+    background-size: 457px 434px;
+    width: 222px;
+    height: 52px;
+    margin: 5px;
+    background-position: 0 -158px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: 500%;
+}
+
+
+ h1 span {
+     display: none; 
+ }
+ 
+ .blind{
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    display: inline-block;    
+}
+
+#header-search fieldset {
+    margin-left: 20pxl;
+    width: 521px;
+    height: 49px;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 12px 0 13px 15px;
+    border: 2px solid  #03af5d;
+    vertical-align: bottom;    
+    position: relative;
+}   
+
+#header-search fieldset input {
+    border: 0;
+    padding: 0;
+    outline: none;
+    vertical-align: top;
+    width: 405px;
+    height: 23px;
+} 
+
+#header-search fieldset button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  padding: 0px;
+  background-color: #03af5d;
+  position: absolute;
+  right: -2.5px;
+  top: -2.5px;
+}
+
+#search-image {
+  position:absoluts;
+  /* margin: 14px; */
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  background-image: url('sp_main_dba1af.png');
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+  background-size: 457px 434px;
+  background-position: -420px 0;
+  background-repeat: no-repeat;
+  vertical-align: top; 
+}
+
+nav .center-align {
+    display: inline-block;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    color: #03c75a;
+    list-style: none;
+    margin-left: 12px;
+    display: hidden;
+}
+
+nav .mail {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background-position: -420px -73px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    margin: 3px 9px 0 0;
+    background-image: url('sp_main_dba1af.png');
+    background-size: 457px 434px;
+}
+
+/* #fixed {
+    top: 50px;
+    right: 50px;
+    position: fixed;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #4e866b;
+    border-radius: 50px;
+}  */
